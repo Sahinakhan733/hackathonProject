@@ -1,0 +1,151 @@
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(120deg, #896a99 0%, #616f7c 100%);
+}
+.container {
+  background:linear-gradient(90deg, #d8bdeb 0%, #bac3f0 100%);
+  border-radius: 1rem;
+  box-shadow: 0 8px 32px rgba(80,120,255,0.10);
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+.card-header-gradient {
+  background: linear-gradient(90deg, #4f8cff 0%, #6a82fb 100%);
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  min-height: 56px;
+}
+.avatar-circle {
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  color: #4f8cff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.card-portfolio {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(80,120,255,0.08);
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.card-portfolio:hover {
+  box-shadow: 0 8px 32px rgba(80,120,255,0.18);
+  transform: translateY(-4px) scale(1.03);
+}
+.card-body i {
+  color: #4f8cff;
+  margin-right: 6px;
+}
+.card.p-4.mb-5.shadow-sm {
+  background: linear-gradient(120deg, #fbc2eb 0%, #a6c1ee 100%);
+  border: none;
+  box-shadow: 0 4px 24px rgba(80,120,255,0.10);
+} 
+/* Profile image in card */
+.card-header img.rounded-circle {
+  border: 2px solid #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+/* Skills badges */
+.badge.bg-primary {
+  background: linear-gradient(90deg, #4f8cff 0%, #6a82fb 100%);
+  color: #fff;
+  font-size: 0.85em;
+  font-weight: 500;
+}
+.card-body a i.bi,
+#modalBody a i.bi {
+  font-size: 1.2em;
+  vertical-align: middle;
+  color: #4f8cff;
+  transition: color 0.2s;
+}
+.card-body a:hover i.bi,
+#modalBody a:hover i.bi {
+  color: #6a82fb;
+}
+#modalBody .avatar-circle,
+#modalBody img.rounded-circle {
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+body.bg-dark {
+  background: linear-gradient(120deg, #232526 0%, #414345 100%) !important;
+}
+body.bg-dark .container {
+  background: #232526;
+  color: #fff;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+}
+body.bg-dark .card-portfolio {
+  background: #2c2f36;
+  color: #fff;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.18);
+}
+body.bg-dark .card-header-gradient {
+  background: linear-gradient(90deg, #232526 0%, #414345 100%);
+}
+body.bg-dark .badge.bg-primary {
+  background: linear-gradient(90deg, #232526 0%, #414345 100%);
+  color: #fff;
+}
+body.bg-dark .card-body a i.bi,
+body.bg-dark #modalBody a i.bi {
+  color: #a6c1ee;
+}
+body.bg-dark .card-body a:hover i.bi,
+body.bg-dark #modalBody a:hover i.bi {
+  color: #fbc2eb;
+}
+body.bg-dark .modal-content {
+  background: #232526;
+  color: #fff;
+} 
+/* Vibrant card text and shadow */
+.card-portfolio {
+  color: #fff;
+  box-shadow: 0 2px 16px rgba(80,120,255,0.18), 0 4px 32px rgba(0,0,0,0.10);
+  border: none;
+  transition: box-shadow 0.3s, transform 0.2s, filter 0.2s;
+  filter: brightness(1.05) saturate(1.2);
+}
+.card-portfolio .card-header-gradient {
+  background: transparent !important;
+}
+.card-portfolio .fw-bold.text-white {
+  text-shadow: 0 2px 8px rgba(0,0,0,0.18);
+}
+.card-portfolio .card-body {
+  color: #fff;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.10);
+}
+.card-portfolio .badge.bg-primary {
+  background: rgba(0,0,0,0.18);
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.18);
+}
+.card-portfolio .btn-outline-primary {
+  background: rgba(255,255,255,0.10);
+  border: 1px solid #fff;
+  color: #fff;
+}
+.card-portfolio .btn-outline-primary:hover {
+  background: #fff;
+  color: #4f8cff;
+}
+.card-portfolio .btn-success {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+.card-portfolio:hover {
+  box-shadow: 0 8px 32px rgba(80,120,255,0.28), 0 8px 48px rgba(0,0,0,0.18);
+  transform: translateY(-6px) scale(1.04) rotate(-1deg);
+  filter: brightness(1.15) saturate(1.4);
+} 
